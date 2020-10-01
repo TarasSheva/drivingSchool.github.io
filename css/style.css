@@ -237,6 +237,130 @@ body {
     margin-top: 30px;
     color: #333333;
 }
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: space-around;
+    outline: none;
+    margin: 50px 100px;
+}
+.slider__photo img {
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px 120px 10px 0;
+}
+.slider__name {
+    font-size: 28px;
+}
+.slider__text {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.feedback__slider {
+    position: relative;
+}
+.slick-btn {
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.slick-next {
+    right: 0;
+    margin-right: 25px;
+}
+.slick-next:before {
+    content: "\f105";
+    font-family: 'icomoon';
+    color: #333333;
+    font-size: 35px;
+    font-weight: bold;
+}
+.slick-prev {
+    left: 0;
+    margin-left: 25px;
+}
+.slick-prev:before {
+    content: "\f104";
+    font-family: 'icomoon';
+    color: #333333;
+    font-size: 35px;
+    font-weight: bold;
+}
+.feedback__all {
+    text-transform: uppercase;
+    float: right;
+    margin-right: 150px;
+}
+.feedback__all a {
+    color: #337ab7;
+    text-decoration: none;
+    font-size: 24px;
+}
+.feedback__all a:after {
+    content: "\f061";
+    font-family: 'icomoon';
+    padding-left: 10px;
+}
+.dop-info__inner {
+    margin-top: 50px;
+    background-color: #f7f7f7;
+    padding-bottom: 50px;
+}
+.dop-info__items {
+    display: flex;
+    justify-content: space-around;
+}
+.dop-info__title {
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding: 60px 0;
+    text-align: center;
+    color: #333333;
+}
+.dop-info__item {
+    min-height: 320px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    -webkit-box-shadow: 0 0 22px 2px rgba(0,0,0,.63);
+    -moz-box-shadow: 0 0 22px 2px rgba(0,0,0,.63);
+    box-shadow: 0 0 22px 2px rgba(0,0,0,.63);
+}
+.dop-info__photo1 {
+    background-image: url("../img/dop-auto.png");
+}
+.dop-info__photo2 {
+    background-image: url("../img/dop-prava.png");
+}
+.dop-info__photo3 {
+    background-image: url("../img/dop-map.png");
+}
+.dop-info__photo1, .dop-info__photo2, .dop-info__photo3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.dop-info__text {
+    text-align: center;
+}
+.dop-info__text a {
+    color: #337ab7;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 20px 10px;
+    position: relative;
+}
+.dop-info__text a:after {
+    content: "\f061";
+    font-family: 'icomoon';
+    padding-left: 10px;
+}
 .contacts {
     padding-top: 1px;
     background-color: #f7f7f7;
