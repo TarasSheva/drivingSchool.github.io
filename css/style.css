@@ -512,3 +512,36 @@ body {
     font-size: 35px;
 }
 
+/****************************************learn.html******************************************/
+.auto__text {
+    background-color: #f7f7f7;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.auto__text h1 {
+    text-align: center;
+}
+.auto__text p {
+    text-align: justify;
+    padding: 10px 40px;
+    text-indent: 5%;
+}
+.auto__text .padding-ul {
+    margin-left: 10%;
+}
+.auto__text .price {
+    text-align: center;
+    font-size: 19px;
+}
+.auto__text .price .new-price {
+    font-weight: bold;
+    color: red;
+}
+.auto__text .price2 {
+    text-align: center;
+}
+.auto__text a {
+    color: #337ab7;
+    text-decoration: none;
+}
