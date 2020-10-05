@@ -580,3 +580,43 @@ body {
 .fe__text {
     font-size: 18px;
 }
+
+/***********************************************branch****************************/
+.branches {
+    background-color: #f7f7f7;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.branches__item {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin: 25px 2%;
+    min-height: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 22px 2px rgba(0,0,0,.63);
+    -moz-box-shadow: 0 0 22px 2px rgba(0,0,0,.63);
+    box-shadow: 0 0 22px 2px rgba(0,0,0,.63);
+}
+.branches__map {
+    width: 50%;
+}
+.branches__map iframe {
+    border-radius: 0 10px 10px 0;
+}
+.branches__text {
+    width: 50%;
+    padding-left: 40px;
+    font-size: 16px;
+}
+.branches__text h2 {
+    text-align: center;
+    font-weight: normal;
+}
+.branches__text ul {
+    list-style: none;
+}
+.branches__text p {
+    font-weight: bold;
+}
