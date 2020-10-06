@@ -1,0 +1,230 @@
+@media (max-width: 1084px) {
+    .menu ul {
+        background: linear-gradient(#1c2c3f 0%, #384a5c 100%);
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 70px;
+        z-index: 50;
+        padding: 10px 30px;
+        margin-top: 0px;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+
+    }
+
+    .menu a {
+        display: block;
+    }
+
+    .header__btn-menu {
+        display: block;
+        color: white;
+        right: 30px;
+        position: absolute;
+        margin: 12px;
+    }
+
+    .header__logo {
+        position: absolute;
+        left: 30px;
+    }
+
+    .menu li + li {
+        padding-left: 0;
+    }
+    .icons__items {
+        display: block;
+    }
+    .steps__items {
+        display: block;
+    }
+    .step-img-1:after, .step-img-2:after, .step-img-3:after {
+        display: none;
+    }
+    .steps__item {
+        margin: 30px 50px 30px 90px;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .dop-info__items {
+        display: block;
+    }
+    .dop-info__item {
+        margin: 20px 50px;
+        width: 90%;
+    }
+    .contacts__adress h2 {
+        font-size: 20px;
+    }
+    .contacts__adress li {
+        font-size: 14px;
+    }
+    .form__box-inner input {
+        margin: 15px;
+        width: 70%;
+    }
+    .form__box-inner select {
+        width: 70%;
+        margin: 15px;
+    }
+    .form__box-inner button {
+        width: 70%;
+        margin: 15px;
+    }
+    .footer__content {
+        display: block;
+        text-align: center;
+    }
+    .footer__email {
+        margin: 30px;
+    }
+    .footer__image img {
+        width: 60%;
+    }
+    #modal .form__box-inner input {
+        margin-left: 0;
+    }
+    #modal .form__box-inner select {
+        margin-left: 0;
+    }
+    #modal .form__box-inner button {
+        margin-left: 0;
+    }
+}
+@media (max-width: 700px) {
+    .slick-next:before, .slick-prev:before  {
+        display: none;
+    }
+    .steps__item {
+        margin: 30px 50px 30px 75px;
+    }
+    .dop-info__item {
+        margin: 20px 35px;
+        width: 90%;
+    }
+    .contacts__title {
+        font-size: 20px;
+    }
+    .contacts__inner {
+        display: block;
+    }
+    .contacts__map {
+        width: 100%;
+    }
+    .question h2 {
+        font-size: 20px;
+    }
+    .form__box-inner input {
+        margin: 15px;
+        width: 80%;
+    }
+    .form__box-inner select {
+        width: 80%;
+        margin: 15px;
+    }
+    .form__box-inner button {
+        width: 80%;
+        margin: 15px;
+    }
+    .branches__item {
+        display: block;
+    }
+    .branches__text {
+        width: 100%;
+        padding-left: 10px;
+    }
+    .branches__map {
+        width: 100%;
+    }
+    .branches__map iframe {
+        border-radius: 0 0 10px 10px;
+    }
+    .feedback__item {
+        display: block;
+    }
+    .fe__photo {
+        text-align: center;
+    }
+    .fe__photo img {
+        margin: 15px auto;
+    }
+    .auto__list-item {
+        display: block;
+    }
+    .auto__list-photo img {
+        width: 100%;
+    }
+    .category__item {
+        display: block;
+    }
+    .category__item-img {
+        width: 96%;
+    }
+    .category__item-text {
+        width: 90%;
+        text-align: center;
+        padding: 0 0 15px;
+    }
+}
+@media (max-width: 550px) {
+    .dop-info__item {
+        margin: 20px 30px;
+        width: 90%;
+    }
+    .footer__image img {
+        width: 100%;
+    }
+    .footer__email {
+        font-size: 22px;
+    }
+}
+@media (max-width: 449px) {
+    .header__content h1 {
+        top: 250px;
+    }
+    .text-center {
+        font-size: 22px;
+    }
+    .slider__name {
+        font-size: 20px;
+    }
+    .slider__text {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .slider__photo img {
+        width: 150px;
+        border-radius: 50%;
+    }
+    .steps__item {
+        margin: 30px 30px 30px 35px;
+    }
+    .feedback__all {
+        text-align: center;
+        float: none;
+        margin-right: 0;
+    }
+    .dop-info__item {
+        margin: 20px;
+        width: 90%;
+    }
+    #modal .modal__content {
+        padding-left: 30px;
+        font-size: 12px;
+    }
+    .fancybox-slide--html .fancybox-close-small {
+        padding-top: 0;
+    }
+    .footer__fb iframe {
+        width: 100%;
+    }
+    .footer__copy {
+        font-size: 12px;
+    }
+}
