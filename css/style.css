@@ -659,3 +659,33 @@ body {
 .categories__desrc p {
     text-indent: 5%;
 }
+
+/**************auto*************/
+.auto__list {
+    background-color: #f7f7f7;
+    padding-bottom: 40px;
+    padding-top: 1px;
+}
+.auto__list h1 {
+    text-align: center;
+}
+.auto__list-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 22px 2px rgba(0, 0, 0, .63);
+    -moz-box-shadow: 0 0 22px 2px rgba(0, 0, 0, .63);
+    box-shadow: 0 0 22px 2px rgba(0, 0, 0, .63);
+}
+.auto__list-item p {
+    font-size: 16px;
+}
+.auto__list-photo {
+    padding: 0 15px;
+}
+.auto__list-text {
+    padding: 0 15px;
+}
