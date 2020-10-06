@@ -22,16 +22,21 @@ body {
 }
 .logo__img {
     display: flex;
+    justify-content: center;
 }
 
 .logo__img img {
-    width: 100px;
+    max-width: 80px;
     padding: 15px;
 }
 .logo__img strong {
     color: white;
-    font-size: 34px;
+    font-size: 26px;
     padding: 15px 0 15px 0px;
+}
+
+.menu ul {
+    padding-left: 0;
 }
 
 .menu li {
@@ -50,8 +55,9 @@ body {
     border-color: white;
 }
 .menu li + li {
-    padding-left: 10px;
+    padding-left: 5px;
 }
+
 
 /** 1.01 video**/
 .header__overlay {
@@ -453,6 +459,11 @@ body {
     background-image: linear-gradient(to bottom,#384a5c 0%,#1c2c3f 100%);
     color: #fff;
 }
+
+.footer__image {
+    padding: 40px;
+    text-align: center;
+}
 .footer__content {
     display: flex;
     justify-content: space-between;
@@ -688,4 +699,8 @@ body {
 }
 .auto__list-text {
     padding: 0 15px;
+}
+
+.slick-track {
+    width: 100%;
 }
